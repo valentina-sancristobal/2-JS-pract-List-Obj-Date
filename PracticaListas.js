@@ -1,17 +1,18 @@
 
 //Practica listas
 
-const fecha_nacimiento = new Date(28, 11, 1992);
-
-const libro = {
-    titulo: "hola",
-    autor: "j.k_Rodriguez",
-    fecha: (24, 6, 1995),
-    url: "www.libros.sdhgsjvdjhcbsjdb.com"
-}
-
-const lista = ["valentina", 30, true, fecha_nacimiento, libro ]
-
+const lista = [
+  "Valentina",
+  30,
+  true,
+  new Date(1992, 11, 21),
+  { 
+      titulo: "Hola",
+      autor: "J. R. Rodriguez",
+      fecha: new Date(1997, 10, 1),
+      url: "https://www.libros.sdkfgsvsncb.com"
+    },
+];
 console.log(lista);
 
 /*Crea un nuevo archivo JS que contenga una lista 
